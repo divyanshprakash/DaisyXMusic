@@ -3,8 +3,7 @@ from os import path
 from os import getenv
 from dotenv import load_dotenv
 
-if os.path.exists("local.env"):
-    load_dotenv("local.env")
+
 
 que = {}
 SESSION_NAME = 'AQClM8fx7RBkbx3W1LjETyXWIOqNorR24S52EPnz3VdH3c6nWHbMNEMgB5fUqSax_bFNa4_nFBfR0MWikt6BE73QTc7TTP4mZGSKFqBtieJhj2NKd_112ZIL0bvJGAQSMqP5-efLnLUENj8BHRBGqkAzTnY1WFqozKQnkJWvtRFFOW7XqVljDd6phJpXYzoWb_fKIukx1sCEXIouuKbHtQwsGW_ycAC_0Ght1b4lnZ85LgnF_hlOBc29wmcUmflhsfR-EgvRk5MK4agKHcYB0o01Bvx1A1oZ6S5pJ9eMUiI7abuiQseK0BlZsDwcGr7SMNCpAwX-1j4aAjKIGgiLayOyckfQFwA'
