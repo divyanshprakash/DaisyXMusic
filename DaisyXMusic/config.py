@@ -1,20 +1,3 @@
-# DAISYXMUSIC- Telegram bot project
-# Copyright (C) 2021  Roj Serbest
-# Copyright (C) 2021  Inuka Asith
-# This program is free software: you can redistribute it and/or modify
-# it under the terms of the GNU Affero General Public License as
-# published by the Free Software Foundation, either version 3 of the
-# License, or (at your option) any later version.
-
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU Affero General Public License for more details.
-#
-# You should have received a copy of the GNU Affero General Public License
-# along with this program.  If not, see <https://www.gnu.org/licenses/>.
-# Modified by Inukaasith
-
 import os
 from os import path
 from os import getenv
@@ -24,22 +7,22 @@ if os.path.exists("local.env"):
     load_dotenv("local.env")
 
 que = {}
-SESSION_NAME = getenv("SESSION_NAME", "session")
-BOT_TOKEN = getenv("BOT_TOKEN")
-BOT_NAME = getenv("BOT_NAME")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "DaisyXupdates")
+SESSION_NAME = 'AQA1Gk7wEdjaMZVnQmbwyI9XNZOkFUtD-rxWYbWdDDETTHRSvA1Bwkji8MAvhsN7NTIHhWY-Yce-jcM2YVuq9YT8GEqiDwSUUWU7gvgavXiKdcmYXc-rB_JbprPMRyanhjL65vG8GNW96yQSRTB9eLOUjGcaqMJy2pfeOwpIkwkMjIMbyq_YFCj3NAiR9u8kalvKwGHIKGfNAdiB8cFIoGt_-eH2A8fZle2N7Fic-YtPmp0s6Wl1pQytt3jGvGt3TzU8QasKVL6H9PaIcnC9rej-RuPW9UHIEy70UCAPEx4RnC3x3EhgIU320v1eSEGKAm2Lu-r5opMPWfeCyEwSgHvcckfQFwA'
+BOT_TOKEN = "1974969627:AAGIOy8TKG_P3TeKrrcvRfsAB56nyQPA_ik"
+BOT_NAME = getenv("royal Music")
+UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "the_royal_music")
 BG_IMAGE = getenv("BG_IMAGE", "https://telegra.ph/file/dcfdf612e499eef0e0b1f.png")
 admins = {}
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
-BOT_USERNAME = getenv("BOT_USERNAME")
-ASSISTANT_NAME = getenv("ASSISTANT_NAME", "DaisyXhelper")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "DaisySupport_Official")
-PROJECT_NAME = getenv("PROJECT_NAME", "DaisyXMusic v5")
-SOURCE_CODE = getenv("SOURCE_CODE", "github.com/TeamDaisyX/DaisyXMusic")
-DURATION_LIMIT = int(getenv("DURATION_LIMIT", "7"))
-ARQ_API_KEY = getenv("ARQ_API_KEY", None)
-PMPERMIT = getenv("PMPERMIT", None)
-LOG_GRP = getenv("LOG_GRP", None)
+API_ID =  7706870
+API_HASH = "6982374bef85e9953a1ee53a02e92991"
+BOT_USERNAME = getenv("mr_royal_music_bot")
+ASSISTANT_NAME = getenv("ASSISTANT_NAME", "ADDDMEEKEKIEEJHE")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "AnonymousArmy_1")
+PROJECT_NAME = getenv("PROJECT_NAME", "Royal Music")
+SUPPORT = getenv("SUPPORT", "https://telegra.ph/SUPPORT-08-01-2")
+DURATION_LIMIT = int(getenv("DURATION_LIMIT", "70000"))
+ARQ_API_KEY = "BZWLAO-CLDVIK-DBEOWZ-VYLIOI-ARQ"
+PMPERMIT = getenv("on")
+LOG_GRP = "-1001591741014"
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ !").split())
-SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
+SUDO_USERS = "691224603"
